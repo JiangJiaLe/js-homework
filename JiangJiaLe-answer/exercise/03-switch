@@ -1,0 +1,13 @@
+// JavaScript source code
+var num = prompt('Please enter a string ', " ");
+if (parseInt(num) == num) {
+    if (num % 2 == 0) {
+        document.write("It is a Even number")
+    }
+    else {
+        document.write("It is a Odd")
+    }
+}
+else {
+    document.write("It is not an integer")
+}
